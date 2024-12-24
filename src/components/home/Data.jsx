@@ -4,13 +4,13 @@ const Data = () => {
     return (
         <div className="home__data">
             <h1 className="home__title">
-                Rama
+                Hello there!
             </h1>
             <p className="home__description">
-                I am a Computer Science Student studying at National University of Singapore!
+                I am Ramanathan, a Computer Science Student at National University of Singapore :D
             </p>
 
-            <a href="#contact" className="button button--flex">
+            {/* <a href="#contact" className="button button--flex">
                 Say Hello
                 <svg
                     className="button__icon"
@@ -29,7 +29,7 @@ const Data = () => {
                         fill="var(--container-color)"
                     ></path>
                 </svg>
-            </a>
+            </a> */}
         </div>
     )
 }
